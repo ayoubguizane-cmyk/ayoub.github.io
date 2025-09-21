@@ -7,22 +7,41 @@
     body {
       height: 100vh;
       margin: 0;
+      background: #f5f5f5;
+      font-family: 'Cairo', Arial, sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #f5f5f5;
-      font-family: 'Cairo', Arial, sans-serif;
+    }
+    .container {
+      text-align: center;
     }
     h1 {
       font-size: 3rem;
       color: #222;
-      text-align: center;
       font-weight: bold;
+      margin-bottom: 2rem;
       letter-spacing: 2px;
+    }
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      font-size: 1.5rem;
+      color: #333;
+      font-weight: 500;
     }
   </style>
 </head>
 <body>
-  <h1>كيف تصبح رائعا مثل ايوب</h1>
+  <div class="container">
+    <h1>كيف تصبح رائعا مثل ايوب</h1>
+    <div class="steps">
+      <div>الخطوة الأولى: يجب أن يكون لديك وجه فائق الجمال</div>
+      <div>الخطوة الثانية: يجب أن تكون شجاعاً وقوياً مثل أيوب</div>
+      <div>الخطوة الثالثة: يجب أن تكون ذكياً مثله</div>
+      <div>وما زال هناك شيء سوف أخبرك به لاحقاً</div>
+    </div>
+  </div>
 </body>
 </html>
